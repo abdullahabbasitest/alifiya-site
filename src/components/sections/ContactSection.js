@@ -55,8 +55,8 @@ const ContactSection = () => {
             <div className="contact-methods">
               <div className="contact-method">
                 <h4 className="method-title">Email</h4>
-                <a href="mailto:contact@example.com" className="method-link">
-                  contact@example.com
+                <a href="mailto:parekhalifiya@gmail.com" className="method-link">
+                parekhalifiya@gmail.com
                 </a>
               </div>
               
@@ -69,7 +69,7 @@ const ContactSection = () => {
               
               <div className="contact-method">
                 <h4 className="method-title">Location</h4>
-                <p className="method-text">San Francisco Bay Area, California</p>
+                <p className="method-text">Sunnyvale Bay Area, California</p>
               </div>
             </div>
           </div>

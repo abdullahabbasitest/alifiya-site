@@ -32,7 +32,7 @@ const Footer = () => {
               <a href="https://www.linkedin.com/in/alifiya-parekh/" target="_blank" rel="noopener noreferrer" className="social-link">
                 LinkedIn
               </a>
-              <a href="mailto:contact@example.com" className="social-link">
+              <a href="mailto:parekhalifiya@gmail.com" className="social-link">
                 Email
               </a>
             </div>
@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; {currentYear} Alifiya Parekh. All rights reserved.</p>
+          <p>&copy; {currentYear} Developed by <a href="http://abdullahabbasi.com/" target="_blank" rel="noopener noreferrer">Abdullah Abbasi</a></p>
         </div>
       </div>
     </footer>
