@@ -3,84 +3,56 @@
   background-color: var(--background-color);
 }
 
-.skills-content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: var(--spacing-xl);
+.skills-table-container {
   margin-top: var(--spacing-lg);
+  overflow-x: auto;
 }
 
-.skill-category {
-  margin-bottom: var(--spacing-lg);
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid var(--border-color);
+  font-size: var(--font-size-base);
 }
 
-.category-title {
-  color: var(--primary-color);
-  font-size: var(--font-size-large);
-  margin-bottom: var(--spacing-md);
-  position: relative;
-  padding-bottom: var(--spacing-sm);
-}
-
-.category-title::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 50px;
-  height: 3px;
+.skills-table th {
   background-color: var(--primary-color);
-}
-
-.skills-list {
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-md);
-}
-
-.skill-item {
-  margin-bottom: var(--spacing-sm);
-}
-
-.skill-info {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: var(--spacing-xs);
-}
-
-.skill-name {
-  font-weight: 500;
-  color: var(--text-color);
-}
-
-.skill-percentage {
-  color: var(--secondary-color);
+  color: var(--light-text);
+  text-align: left;
+  padding: var(--spacing-md);
   font-weight: 600;
 }
 
-.skill-bar {
-  width: 100%;
-  height: 8px;
-  background-color: var(--section-background);
-  border-radius: 10px;
-  overflow: hidden;
+.skills-table td {
+  padding: var(--spacing-md);
+  border-bottom: 1px solid var(--border-color);
 }
 
-.skill-progress {
-  height: 100%;
-  background-color: var(--primary-color);
-  border-radius: 10px;
-  transition: width 1.5s ease-in-out;
+.skill-category {
+  font-weight: 600;
+  color: var(--secondary-color);
+  width: 30%;
+  vertical-align: top;
+  border-right: 1px solid var(--border-color);
 }
 
-@media (max-width: 992px) {
-  .skills-content {
-    grid-template-columns: 1fr 1fr;
-  }
+.skill-details {
+  line-height: 1.6;
 }
 
 @media (max-width: 768px) {
-  .skills-content {
-    grid-template-columns: 1fr;
+  .skills-table th, 
+  .skills-table td {
+    padding: var(--spacing-sm);
+  }
+  
+  .skill-category {
+    width: 40%;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-table {
+    font-size: var(--font-size-small);
   }
 }

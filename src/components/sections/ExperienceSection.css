@@ -3,6 +3,7 @@
   padding: var(--spacing-xl) 0;
 }
 
+
 .experience-timeline {
   position: relative;
   max-width: 800px;
@@ -88,6 +89,12 @@
 .experience-company {
   font-size: var(--font-size-medium);
   font-weight: 500;
+  margin-bottom: var(--spacing-xs);
+}
+
+.experience-location {
+  font-size: var(--font-size-base);
+  color: var(--secondary-color);
   margin-bottom: var(--spacing-xs);
 }
 

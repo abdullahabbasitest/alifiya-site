@@ -44,16 +44,19 @@ const Header = () => {
               <a href="#about" className="nav-link">About</a>
             </li>
             <li className="nav-item">
-              <a href="#experience" className="nav-link">Experience</a>
+              <a href="#skills" className="nav-link">Skills</a>
             </li>
             <li className="nav-item">
-              <a href="#skills" className="nav-link">Skills</a>
+              <a href="#achievements" className="nav-link">Certifications</a>
+            </li>
+            <li className="nav-item">
+              <a href="#experience" className="nav-link">Experience</a>
             </li>
             <li className="nav-item">
               <a href="#education" className="nav-link">Education</a>
             </li>
             <li className="nav-item">
-              <a href="#achievements" className="nav-link">Achievements</a>
+              <a href="#volunteer" className="nav-link">Volunteer</a>
             </li>
             <li className="nav-item">
               <a href="#contact" className="nav-link">Contact</a>

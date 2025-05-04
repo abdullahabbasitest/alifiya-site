@@ -2,63 +2,72 @@ import React from 'react';
 import './AchievementsSection.css';
 
 const AchievementsSection = () => {
-  const achievements = [
+  const certifications = [
     {
       id: 1,
-      title: "Regulatory Affairs Certification (RAC)",
-      issuer: "Regulatory Affairs Professionals Society (RAPS)",
-      year: "2019",
-      description: "Specialized certification demonstrating expertise in medical device regulatory frameworks across multiple markets."
+      title: "RCC – MDR Certification",
+      category: "Certification",
+      institution: "Regulatory Affairs Professionals Society (RAPS)",
+      year: "2025",
+      details: "Successfully cleared the EU-MDR exam",
+      image: "/rcc-mdr.png"
     },
     {
       id: 2,
-      title: "ISO 13485 Lead Auditor Certification",
-      issuer: "Quality Management Institute",
-      year: "2018",
-      description: "Certification in leading quality management system audits for medical device manufacturers."
-    },
-    {
-      id: 3,
-      title: "Medical Device Innovation Award",
-      issuer: "Healthcare Technology Association",
-      year: "2021",
-      description: "Recognized for contributions to a groundbreaking medical device that improved patient outcomes by 35%."
-    },
-    {
-      id: 4,
-      title: "Six Sigma Green Belt",
-      issuer: "American Society for Quality (ASQ)",
-      year: "2017",
-      description: "Certification in process improvement methodologies and quality management principles."
-    },
-    {
-      id: 5,
-      title: "MDR Compliance Leadership Recognition",
-      issuer: "European Medical Device Industry Council",
-      year: "2022",
-      description: "Recognition for successful leadership in transitioning medical device portfolio to EU MDR compliance."
-    },
-    {
-      id: 6,
-      title: "Project Management Professional (PMP)",
-      issuer: "Project Management Institute",
-      year: "2020",
-      description: "Globally recognized certification in project management principles and practices."
+      title: "Regulatory Affairs Certificate Program (RAC)",
+      category: "Certificate program",
+      institution: "University of California, Santa Cruz – Silicon Valley Extension",
+      year: "2024",
+      details: "Successfully completed the credits for the certificate program with the coursework:",
+      coursework: [
+        "Quality Management Systems: ISO 13485 & FDA Requirements",
+        "Design Control for Medical Devices & IVDs",
+        "Medical Device Process Validation",
+        "EU-MDR: Clinical Evaluation & Post-Market Surveillance",
+        "Regulatory Submissions: Devices & Diagnostics",
+        "Global Regulatory Strategy & Submissions"
+      ],
+      image: "/rac.png"
     }
   ];
 
   return (
     <section id="achievements" className="achievements-section section">
       <div className="container">
-        <h2 className="section-title">Achievements & Certifications</h2>
+        <h2 className="section-title">CERTIFICATIONS</h2>
         
-        <div className="achievements-grid">
-          {achievements.map(achievement => (
-            <div key={achievement.id} className="achievement-card">
-              <div className="achievement-year">{achievement.year}</div>
-              <h3 className="achievement-title">{achievement.title}</h3>
-              <div className="achievement-issuer">{achievement.issuer}</div>
-              <p className="achievement-description">{achievement.description}</p>
+        <div className="certifications-container">
+          {certifications.map(cert => (
+            <div key={cert.id} className="certification-card">
+              <div className="certification-content">
+                <div className="certification-header">
+                  <div className="certification-badge">
+                    <span className="certification-category">{cert.category}</span>
+                    <span className="certification-year">{cert.year}</span>
+                  </div>
+                  <h3 className="certification-title">{cert.title}</h3>
+                  <div className="certification-institution">{cert.institution}</div>
+                </div>
+                
+                <div className="certification-details">
+                  <p>{cert.details}</p>
+                  {cert.coursework && (
+                    <ul className="coursework-list">
+                      {cert.coursework.map((course, index) => (
+                        <li key={index} className="coursework-item">{course}</li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              </div>
+              
+              <div className="certification-image-container">
+                <img 
+                  src={cert.image} 
+                  alt={cert.title} 
+                  className="certification-image" 
+                />
+              </div>
             </div>
           ))}
         </div>

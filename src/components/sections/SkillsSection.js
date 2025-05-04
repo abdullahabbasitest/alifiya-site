@@ -2,81 +2,59 @@ import React from 'react';
 import './SkillsSection.css';
 
 const SkillsSection = () => {
-  const skillCategories = [
+  const skillData = [
     {
-      id: 1,
-      title: "Regulatory Expertise",
-      skills: [
-        { name: "FDA 510(k) Submissions", level: 95 },
-        { name: "CE Marking", level: 90 },
-        { name: "ISO 13485", level: 90 },
-        { name: "Medical Device Regulations (MDR)", level: 85 },
-        { name: "Quality Management Systems", level: 85 }
-      ]
+      category: "Computer Skills",
+      details: "MS Office, Adobe Acrobat, Virje, SAP, Atlassian JIRA, SQL, Electronic Lab Notebooks"
     },
     {
-      id: 2,
-      title: "Technical Skills",
-      skills: [
-        { name: "Risk Management", level: 90 },
-        { name: "Design Controls", level: 85 },
-        { name: "Validation & Verification", level: 85 },
-        { name: "Technical Documentation", level: 90 },
-        { name: "Root Cause Analysis", level: 80 }
-      ]
+      category: "Tools & Platforms",
+      details: "BSI Compliance Navigator, IQVIA database, and Nyquist, EUDAMED, GMDN, GUDID, FDA database-e CFR"
     },
     {
-      id: 3,
-      title: "Product Development",
-      skills: [
-        { name: "Clinical Evaluation", level: 75 },
-        { name: "Biocompatibility", level: 70 },
-        { name: "Medical Device Software", level: 65 },
-        { name: "Product Lifecycle Management", level: 85 },
-        { name: "Design Verification", level: 80 }
-      ]
+      category: "Writing",
+      details: "510k, Technical documentation, GSPR, IFU, Labels, Clinical and post market surveillance, SOPs, Work Instructions, Change assessment, CAPA"
     },
     {
-      id: 4,
-      title: "Soft Skills",
-      skills: [
-        { name: "Cross-functional Collaboration", level: 95 },
-        { name: "Project Management", level: 85 },
-        { name: "Communication", level: 90 },
-        { name: "Leadership", level: 80 },
-        { name: "Problem Solving", level: 90 }
-      ]
+      category: "Worked with",
+      details: "21CFR 820, ISO 13485, ISO 14971, ISO 15223-1, ISO 20417, ISO 11137 and ISO 11135"
+    },
+    {
+      category: "Public Speaking",
+      details: "International Toastmasters Club Member – India"
+    },
+    {
+      category: "Languages",
+      details: "Proficient: English, Hindi, Gujarati, Urdu    Basic: Arabic, Sanskrit, Marathi"
+    },
+    {
+      category: "Other Skills",
+      details: "Critical Analysis, Methodical Documentation, Visual Communication, Simplification of Complex Concepts, Curiosity and Lifelong Learning, Attention to Detail and Organization"
     }
   ];
 
   return (
     <section id="skills" className="skills-section section">
       <div className="container">
-        <h2 className="section-title">Skills & Expertise</h2>
+        <h2 className="section-title">SKILLS</h2>
         
-        <div className="skills-content">
-          {skillCategories.map((category) => (
-            <div key={category.id} className="skill-category">
-              <h3 className="category-title">{category.title}</h3>
-              
-              <div className="skills-list">
-                {category.skills.map((skill, index) => (
-                  <div key={index} className="skill-item">
-                    <div className="skill-info">
-                      <span className="skill-name">{skill.name}</span>
-                      <span className="skill-percentage">{skill.level}%</span>
-                    </div>
-                    <div className="skill-bar">
-                      <div 
-                        className="skill-progress"
-                        style={{ width: `${skill.level}%` }}
-                      ></div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          ))}
+        <div className="skills-table-container">
+          <table className="skills-table">
+            <thead>
+              <tr>
+                <th>Category</th>
+                <th>Details</th>
+              </tr>
+            </thead>
+            <tbody>
+              {skillData.map((skill, index) => (
+                <tr key={index}>
+                  <td className="skill-category">{skill.category}</td>
+                  <td className="skill-details">{skill.details}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
       </div>
     </section>
