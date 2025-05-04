@@ -38,8 +38,18 @@
 
 .hero-bio {
   font-size: var(--font-size-medium);
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
   line-height: 1.7;
+}
+
+.hero-motto, .hero-personal {
+  font-size: var(--font-size-base);
+  margin-bottom: var(--spacing-md);
+  line-height: 1.6;
+}
+
+.hero-personal {
+  margin-bottom: var(--spacing-lg);
 }
 
 .hero-cta {
