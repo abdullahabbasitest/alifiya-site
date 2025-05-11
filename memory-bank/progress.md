@@ -11,6 +11,7 @@
 - [x] Implementing Projects section
 - [x] Simplifying Contact section (removed form)
 - [x] Fixed navigation and scrolling functionality in the Hero section
+- [x] Adding Testimonials section with carousel design
 
 ## In Progress
 - [ ] Optimizing component styling
@@ -34,7 +35,7 @@
 ## Project Status
 **Current Phase**: Component Implementation
 
-**Completion Percentage**: ~15%
+**Completion Percentage**: ~20%
 
 ## Known Issues
 - None currently identified as the project is in early stages
@@ -56,6 +57,7 @@
 - Simplified Contact section by removing the contact form
 - Fixed navigation buttons in Hero section to properly scroll to target sections
 - Improved button styling and user interaction cues
+- Added Testimonials section with a space-efficient carousel design
 
 ## Blockers
 - None currently identified
