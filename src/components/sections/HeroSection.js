@@ -14,8 +14,18 @@ const HeroSection = () => {
             Driven to make a meaningful impact by empowering peers in their career journeys, supporting life science businesses with impactful content, and contributing to the development of safe and effective medical innovations.
             </p>
             <div className="hero-cta">
-              <a href="#contact" className="hero-button primary-button">Get In Touch</a>
-              <a href="#experience" className="hero-button secondary-button">View Experience</a>
+              <a 
+                href="#contact"
+                className="hero-button primary-button"
+              >
+                Contact Me
+              </a>
+              <a 
+                href="#experience"
+                className="hero-button secondary-button"
+              >
+                View Experience
+              </a>
             </div>
           </div>
           <div className="hero-image">
@@ -27,7 +37,10 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="hero-scrolldown">
-          <a href="#experience" className="scrolldown-link">
+          <a 
+            href="#experience"
+            className="scrolldown-link"
+          >
             <span className="scrolldown-text">Scroll Down</span>
             <span className="scrolldown-arrow">↓</span>
           </a>
