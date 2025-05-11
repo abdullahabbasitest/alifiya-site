@@ -8,7 +8,6 @@ const HeroSection = () => {
         <div className="hero-content">
           <div className="hero-info">
             <h1 className="hero-name">Alifiya Parekh</h1>
-            <div className="hero-tag">Technical Documentation Specialist</div>
             <p className="hero-bio">
             Driven to make a meaningful impact by empowering peers in their career journeys, supporting life science businesses with impactful content, and contributing to the development of safe and effective medical innovations.
             </p>
