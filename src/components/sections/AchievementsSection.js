@@ -2,6 +2,19 @@ import React from 'react';
 import './AchievementsSection.css';
 
 const AchievementsSection = () => {
+  const achievementsData = [
+    {
+      role: "Organizer, RAC-Devices Global Study Group",
+      period: "March 2025–Present",
+      description: "Led 30+ member global study group on US, EU, and global medical device regulations. Developed session agendas, coordinated SMEs, created regulatory quizzes."
+    },
+    {
+      role: "Panel Speaker, \"Evolving in Regulatory\" – RAPS SF Chapter, UCSF",
+      period: "April 2025",
+      description: "Shared professional journey and discussed regulatory education gaps for job seekers."
+    }
+  ];
+
   const certifications = [
     {
       id: 1,
@@ -34,7 +47,31 @@ const AchievementsSection = () => {
   return (
     <section id="achievements" className="achievements-section section">
       <div className="container">
-        <h2 className="section-title">CERTIFICATIONS</h2>
+        <h2 className="section-title">LEADERSHIP</h2>
+        
+        <div className="achievements-table-container">
+          <table className="achievements-table">
+            <thead>
+              <tr>
+                <th>Role</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              {achievementsData.map((item, index) => (
+                <tr key={index}>
+                  <td>
+                    {item.role}
+                    {item.period && <div className="period">({item.period})</div>}
+                  </td>
+                  <td>{item.description}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        
+        <h2 className="section-title mt-xl">CERTIFICATIONS</h2>
         
         <div className="certifications-container">
           {certifications.map(cert => (

@@ -3,6 +3,86 @@
   background-color: var(--section-background);
 }
 
+.mt-xl {
+  margin-top: var(--spacing-xl);
+}
+
+/* Achievements Table Styles */
+.achievements-table-container {
+  margin-top: var(--spacing-lg);
+  overflow-x: auto;
+}
+
+.achievements-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+.achievements-table th {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: left;
+  padding: var(--spacing-md);
+  font-weight: 600;
+}
+
+.achievements-table th:first-child {
+  width: 40%;
+}
+
+.achievements-table td {
+  padding: var(--spacing-md);
+  border-bottom: 1px solid var(--border-color);
+  vertical-align: top;
+  line-height: 1.6;
+}
+
+.achievements-table tr:last-child td {
+  border-bottom: none;
+}
+
+.achievements-table tr:nth-child(even) {
+  background-color: var(--light-bg-color);
+}
+
+.achievements-table tr:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.period {
+  font-size: var(--font-size-small);
+  color: var(--secondary-color);
+  margin-top: var(--spacing-xs);
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .achievements-table th,
+  .achievements-table td {
+    padding: var(--spacing-sm);
+    font-size: calc(var(--font-size-base) * 0.95);
+  }
+  
+  .achievements-table th:first-child {
+    width: 50%;
+  }
+  
+  .period {
+    font-size: calc(var(--font-size-small) * 0.95);
+  }
+}
+
+@media (max-width: 480px) {
+  .achievements-table th,
+  .achievements-table td {
+    padding: calc(var(--spacing-sm) * 0.8);
+    font-size: calc(var(--font-size-base) * 0.9);
+  }
+}
+
 .certifications-container {
   display: flex;
   flex-direction: column;

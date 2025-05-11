@@ -9,13 +9,16 @@ const TestimonialsSection = () => {
     {
       name: "Bill Kurani",
       position: "Founder and SVP, IVD, Medical Device, Digital Health, Personalized Wellness, Personalized Cosmetics",
-      relation: "April 29, 2025, Bill was Alifiya's teacher",
       text: "I've had the pleasure of working with Alifiya during the UCSC course on EU Medical Device Regulations, where she consistently demonstrated a strong work ethic, attention to detail, and a deep understanding of regulatory requirements. She excelled in all assignments—including device classification, technical file creation, clinical evaluations, labeling, and post-market surveillance—earning an A in the class. Alifiya actively contributed to class discussions, sharing her prior medical device experience and insights, and has recently been documenting IVD product classifications and trial planning with precision.\n\nBeyond academics, Alifiya took the initiative to set up and lead a study group focused on regulatory affairs, fostering peer learning and collaboration. I attended one of the sessions as a subject matter expert and was genuinely impressed by the quality of work and discussions. Her strong writing skills, as well as her knowledge of both EU and FDA regulations, would make her a valuable asset to any regulatory affairs team."
+    },
+    {
+      name: "Ashfaq Hussain",
+      position: "ASQ CQE, ASQ CSSGB, IRCA Certified Lead Auditor, Medical Device QMS- ISO 13485 and 21 CFR 820, - EU MDR, Risk Management ISO 14971",
+      text: "Working with Alifiya has been fantastic. She has the ability to quickly learn and grasp the medical device regulations and standards, She has also worked effortlessly helping our team meet deadlines for the EUMDR submissions with her technical expertise. Over the years, we discussed about medical device regulations and compliance extensively which shows her interest and passion towards the medical device regulations and she keeps herself up-to date with the latest information in the field of medical devices. I would highly recommend her to any team which is seeking a highly organized, enthusiastic, quick learner with strong technical skills. She adds a great value to any organization by her dedication towards the work and with the depth of technical knowledge."
     },
     {
       name: "Akshay Jadhav",
       position: "Senior Engineer @ Kohler Co. | Codes and Standards | Stakeholder Management | Strategy Implementation | Compliance | Healthcare Devices",
-      relation: "September 13, 2024, Akshay worked with Alifiya on the same team",
       text: "I had the privilege of collaborating with Alifiya on several high-profile projects, including Mobidisc L, Software, and Skin Mesher, during our tenure at TATA Elxsi, where we worked together on the Zimmer Biomet account. Throughout our collaboration, I was consistently impressed by Alifiya's exceptional teamwork, adaptability, and technical expertise. Her outstanding strengths include:\n\n- Cooperative and accommodating approach to team collaboration\n- Intelligent and efficient work style\n- Exceptional critical reviewing skills\n- Rapid learning abilities\n\nAlifiya's contributions were invaluable to our team's success, and I strongly believe she would be a valuable asset to any organization. I wholeheartedly recommend her for any future opportunities."
     }
   ];

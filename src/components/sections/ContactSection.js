@@ -5,14 +5,13 @@ const ContactSection = () => {
   return (
     <section id="contact" className="contact-section section">
       <div className="container">
-        <h2 className="section-title">Contact Me</h2>
+        <h2 className="section-title">CONTACT ME</h2>
         
         <div className="contact-content">
           <div className="contact-info">
-            <div className="contact-detail">
-              <h3 className="contact-title">Contact Information</h3>
+            <div>
               <p className="contact-description">
-                I'm open to discussing new opportunities, collaborations, or answering any questions about medical device regulations and quality management systems.
+              I'm open to exploring new opportunities, whether full-time or part-time, on a contract basis. I'm flexible with remote, hybrid, or onsite roles within the USA and do not require work sponsorship.
               </p>
             </div>
             
@@ -34,6 +33,13 @@ const ContactSection = () => {
               <div className="contact-method">
                 <h4 className="method-title">Location</h4>
                 <p className="method-text">Sunnyvale Bay Area, California</p>
+              </div>
+              
+              <div className="contact-method">
+                <h4 className="method-title">Phone</h4>
+                <a href="tel:+14087025207" className="method-link">
+                  +1 (408) 702-5207
+                </a>
               </div>
             </div>
           </div>

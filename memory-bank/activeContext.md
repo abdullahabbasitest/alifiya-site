@@ -15,6 +15,9 @@ The project is moving from initial setup to component implementation phase. We a
 - Updated button text from "Get In Touch" to "Contact Me" to match section title
 - Added Testimonials section with a carousel design for space efficiency
 - Added sample testimonial data to populate the Testimonials section, replacing the "No testimonials available" message
+- Added a standalone Areas of Interest section above the Contact section to showcase professional interests
+- Updated section titles for "Areas of Interest" and "Contact Me" to be fully capitalized for enhanced visual emphasis
+- Added current freelance role "Freelance Content Engineer & Regulatory Mentor" to the Experience section
 
 ## Active Decisions
 1. **Styling Approach**: Decided to use custom CSS instead of Tailwind CSS for more precise control over styling and reduced bundle size. This decision is reflected in the journal entry "2025_05_03_tailwind_removal.md".

@@ -8,12 +8,6 @@ const Footer = () => {
     <footer className="footer">
       <div className="container footer-container">
         <div className="footer-content">
-          <div className="footer-section">
-            <h3 className="footer-title">Alifiya Parekh</h3>
-            <p className="footer-description">
-              Medical Device Professional with expertise in regulatory affairs, quality assurance, and product development.
-            </p>
-          </div>
           
           <div className="footer-section">
             <h3 className="footer-title">Links</h3>

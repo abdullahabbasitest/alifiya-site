@@ -30,7 +30,6 @@ const Header = () => {
         <div className="logo">
           <div>
             <div className="logo-text">Alifiya Parekh</div>
-            <div className="logo-title">Medical Device Professional</div>
           </div>
         </div>
 

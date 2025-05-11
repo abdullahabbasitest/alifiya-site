@@ -12,6 +12,7 @@
 - [x] Simplifying Contact section (removed form)
 - [x] Fixed navigation and scrolling functionality in the Hero section
 - [x] Adding Testimonials section with carousel design
+- [x] Added Areas of Interest section
 
 ## In Progress
 - [ ] Optimizing component styling
@@ -58,6 +59,9 @@
 - Fixed navigation buttons in Hero section to properly scroll to target sections
 - Improved button styling and user interaction cues
 - Added Testimonials section with a space-efficient carousel design
+- Created a standalone Areas of Interest section to showcase professional interests and career focus
+- Updated section titles for "Areas of Interest" and "Contact Me" to be fully capitalized for enhanced visual emphasis
+- Added current freelance role "Freelance Content Engineer & Regulatory Mentor" to the Experience section
 
 ## Blockers
 - None currently identified

@@ -8,6 +8,7 @@ import VolunteerExperienceSection from './components/sections/VolunteerExperienc
 import SkillsSection from './components/sections/SkillsSection';
 import EducationSection from './components/sections/EducationSection';
 import AchievementsSection from './components/sections/AchievementsSection';
+import AreasOfInterestSection from './components/sections/AreasOfInterestSection';
 import ContactSection from './components/sections/ContactSection';
 import './App.css';
 
@@ -22,6 +23,7 @@ function App() {
       <TestimonialsSection />
       <EducationSection />
       <VolunteerExperienceSection />
+      <AreasOfInterestSection />
       <ContactSection />
     </Layout>
   );

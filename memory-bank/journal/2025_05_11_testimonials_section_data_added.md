@@ -4,13 +4,13 @@
 May 11, 2025
 
 ## Summary
-Added sample testimonial data to the Testimonials section that previously showed "No testimonials available at this time." The component was already properly implemented with a carousel design and navigation controls, but was missing actual testimonial content.
+Added testimonial data to the Testimonials section that previously showed "No testimonials available at this time." The component was already properly implemented with a carousel design and navigation controls, but was missing actual testimonial content.
 
 ## Changes Made
-- Added three testimonials relevant to Alifiya's professional background in medical devices:
-  1. A testimonial from a former supervisor (Dr. Sarah Johnson)
-  2. A testimonial from a project collaborator (James Wilson)
-  3. A testimonial from an industry colleague (Michelle Zhang, PhD)
+- Added real testimonials relevant to Alifiya's professional background in medical devices:
+  1. Bill Kurani (Alifiya's teacher)
+  2. Ashfaq Hussain (Team colleague)
+  3. Akshay Jadhav (Team colleague)
 - Each testimonial includes:
   - Name
   - Professional position

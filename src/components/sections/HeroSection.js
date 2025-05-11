@@ -36,15 +36,6 @@ const HeroSection = () => {
             />
           </div>
         </div>
-        <div className="hero-scrolldown">
-          <a 
-            href="#experience"
-            className="scrolldown-link"
-          >
-            <span className="scrolldown-text">Scroll Down</span>
-            <span className="scrolldown-arrow">↓</span>
-          </a>
-        </div>
       </div>
     </section>
   );

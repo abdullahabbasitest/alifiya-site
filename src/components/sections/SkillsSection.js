@@ -9,14 +9,14 @@ const SkillsSection = () => {
     },
     {
       category: "Tools & Platforms",
-      details: "BSI Compliance Navigator, IQVIA database, and Nyquist, EUDAMED, GMDN, GUDID, FDA database-e CFR"
+      details: "BSI Compliance Navigator, IQVIA database, and Nyquist AI, EUDAMED, GMDN, GUDID, FDA database-e CFR"
     },
     {
-      category: "Writing",
-      details: "510k, Technical documentation, GSPR, IFU, Labels, Clinical and post market surveillance, SOPs, Work Instructions, Change assessment, CAPA"
+      category: "Technical Skills",
+      details: "510k EU-MDR Technical documentation, GSPR, IFU, Labels, Clinical and post market surveillance, SOPs, Work Instructions, Change assessment, CAPA"
     },
     {
-      category: "Worked with",
+      category: "Regulatory Skills",
       details: "21CFR 820, ISO 13485, ISO 14971, ISO 15223-1, ISO 20417, ISO 11137 and ISO 11135"
     },
     {

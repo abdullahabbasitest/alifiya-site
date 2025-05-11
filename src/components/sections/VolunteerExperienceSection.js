@@ -6,24 +6,10 @@ const VolunteerExperienceSection = () => {
   const volunteerExperiences = [
     {
       id: 1,
-      role: "Organizer",
-      organization: "Independent US, EU, Global Regulations Study Group",
-      duration: "2025 – Present",
-      summary: "Leading a 50–60-member global study group by creating content for US,EU, global regulation based topics, developing session structures, creating agendas, coordinating with SMEs, creating regulations' related quizzes, handling facilitation and admin"
-    },
-    {
-      id: 2,
       role: "Volunteer & Member",
       organization: "RAPS San Francisco Chapter",
       duration: "2024 – Present",
       summary: "Supporting the membership and registration team as an active volunteer."
-    },
-    {
-      id: 3,
-      role: "Speaker Panelist",
-      organization: "Event at UCSF with RAPS San Francisco Chapter",
-      duration: "April 2025",
-      summary: "Topic- Evolving in regulatory"
     }
   ];
 

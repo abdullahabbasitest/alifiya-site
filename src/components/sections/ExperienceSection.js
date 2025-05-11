@@ -5,6 +5,18 @@ const ExperienceSection = () => {
   // All Professional Experiences
   const experiences = [
     {
+      id: 0,
+      role: "Freelance Content Engineer & Regulatory Mentor",
+      company: "Independent",
+      location: "Santa Clara, CA",
+      period: "Current",
+      description: [
+        "Providing specialized content engineering services for life science businesses, including document formatting, editing, and refinement.",
+        "Conducting 1:1 mentoring sessions with peers transitioning from different backgrounds to medical devices QA/RA roles.",
+        "Leading US, EU, and Global study groups with 30+ participants through remote sessions focused on regulatory understanding."
+      ]
+    },
+    {
       id: 1,
       role: "Regulatory Operations Specialist",
       company: "Shockwave Medical (acquired by Johnson & Johnson MedTech)",
