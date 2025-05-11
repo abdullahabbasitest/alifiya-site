@@ -20,6 +20,16 @@ const TestimonialsSection = () => {
       name: "Akshay Jadhav",
       position: "Senior Engineer @ Kohler Co. | Codes and Standards | Stakeholder Management | Strategy Implementation | Compliance | Healthcare Devices",
       text: "I had the privilege of collaborating with Alifiya on several high-profile projects, including Mobidisc L, Software, and Skin Mesher, during our tenure at TATA Elxsi, where we worked together on the Zimmer Biomet account. Throughout our collaboration, I was consistently impressed by Alifiya's exceptional teamwork, adaptability, and technical expertise. Her outstanding strengths include:\n\n- Cooperative and accommodating approach to team collaboration\n- Intelligent and efficient work style\n- Exceptional critical reviewing skills\n- Rapid learning abilities\n\nAlifiya's contributions were invaluable to our team's success, and I strongly believe she would be a valuable asset to any organization. I wholeheartedly recommend her for any future opportunities."
+    },
+    {
+      name: "Saleel Yardi",
+      position: "Sr. Technical Executive at Barentz Distribution India Pvt Ltd with expertise in Food Technology and Microbiology",
+      text: "Alifiya and I worked together on our research project titled-Agrobacterium Mediated Transformation... published in Research & Reviews: Journal of Microbiology and Biotechnology. Alifiya proved to be a dependable and reliable team member—highly organized, detail-oriented, and a quick learner with remarkable clarity of thought. Her ability to grasp complex techniques and contribute meaningfully made her an invaluable part of our research team."
+    },
+    {
+      name: "Prabhu Muthu, RCC-MDR",
+      position: "Senior Regulatory Affairs Specialist at STRYKER (Payroll of ALTEN)- Expertise in EU MDR 2017/745, USFDA - 510(k), Product registration, Sustenance Engineering and Life Cycle Management, Risk Management, QMS",
+      text: "I've known Alifiya for some time now when we were part of the same study group for the RAPS RCC-MDR preparation, and she stood out as an enthusiastic and eager learner. Fast forward a few months, and she went on to launch a global study group of over 30 members focused on understanding of US, EU, and global medical device regulations. I've found her to be not only a committed learner but also a highly organized and inspiring leader who fosters collaboration and knowledge-sharing within the community."
     }
   ];
 
