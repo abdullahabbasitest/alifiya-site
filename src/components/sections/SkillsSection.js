@@ -5,7 +5,7 @@ const SkillsSection = () => {
   const skillData = [
     {
       category: "Computer Skills",
-      details: "MS Office, Adobe Acrobat, Virje, SAP, Atlassian JIRA, SQL, Electronic Lab Notebooks"
+      details: "MS Office, Adobe Acrobat, Canva, Smartsheet, SharePoint, Virje, SAP, Atlassian JIRA, SQL, Electronic Lab Notebooks"
     },
     {
       category: "Tools & Platforms",
