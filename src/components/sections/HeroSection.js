@@ -11,7 +11,7 @@ const HeroSection = () => {
             <div className="hero-title">MTech, RAC- Medical devices, RCC-MDR</div>
             <div className="hero-tag">Medical Devices | Diagnostics| Digital Health</div>
             <p className="hero-bio">
-            Driven to make a meaningful impact by empowering peers in their career journeys, supporting life science businesses with impactful content, and contributing to the development of safe and effective medical innovations.
+            A quality and regulatory affairs professional with over five years of cross-functional experience across R&D, quality, and regulatory roles in the biotech and medical device industries. I’ve had the opportunity to work with Class I, II, and III devices for US and EU regulations.
             </p>
             <div className="hero-cta">
               <a 

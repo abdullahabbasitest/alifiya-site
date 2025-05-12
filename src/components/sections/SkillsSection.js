@@ -9,7 +9,7 @@ const SkillsSection = () => {
     },
     {
       category: "Tools & Platforms",
-      details: "BSI Compliance Navigator, IQVIA database, and Nyquist AI, EUDAMED, GMDN, GUDID, FDA database-e CFR"
+      details: "BSI Compliance Navigator, IQVIA database, and Nyquist AI, EUDAMED, GMDN, GUDID, FDA database"
     },
     {
       category: "Technical Skills",
