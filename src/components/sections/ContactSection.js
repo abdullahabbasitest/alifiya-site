@@ -44,14 +44,6 @@ const ContactSection = () => {
               <h4 className="method-title">Location</h4>
               <p className="method-text">Sunnyvale Bay Area, California</p>
             </div>
-            
-            <div className="contact-method">
-              <div className="method-icon">📱</div>
-              <h4 className="method-title">Phone</h4>
-              <a href="tel:+14087025207" className="method-link">
-                +1 (408) 702-5207
-              </a>
-            </div>
           </div>
         </div>
       </div>
