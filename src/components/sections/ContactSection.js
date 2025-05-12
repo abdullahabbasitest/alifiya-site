@@ -11,7 +11,7 @@ const ContactSection = () => {
           <div className="contact-info">
             <div>
               <p className="contact-description">
-              I'm open to exploring new opportunities, whether full-time or part-time, or on a contract basis. I'm flexible with remote, hybrid, or onsite roles within the USA and do not require work sponsorship
+              I'm open to new opportunities, whether full-time or part-time, or on a contract basis. I'm flexible with remote, hybrid, or onsite roles within the USA and do not require work sponsorship
               </p>
             </div>
             

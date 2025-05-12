@@ -106,6 +106,7 @@
 
 .experience-description ul {
   padding-left: var(--spacing-md);
+  list-style-type: none;
 }
 
 .experience-description li {
