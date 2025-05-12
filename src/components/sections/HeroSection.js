@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className="container hero-container">
         <div className="hero-content">
           <div className="hero-info">
-            <h1 className="hero-name">Hi, I'm Alifiya Parekh</h1>
+            <h1 className="hero-name">Hi, I'm <span className="name-underline">Alifiya Parekh</span></h1>
             <div className="hero-title">MTech, RAC- Medical devices, RCC-MDR</div>
             <div className="hero-tag">Medical Devices | Diagnostics| Digital Health</div>
             <p className="hero-bio">

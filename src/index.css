@@ -1,30 +1,30 @@
 :root {
   /* Modern Color Palette */
-  --primary-color: #0066FF;  /* Vibrant blue */
-  --primary-color-rgb: 0, 102, 255;
-  --secondary-color: #FF4D8D;  /* Modern pink */
-  --secondary-color-rgb: 255, 77, 141;
-  --tertiary-color: #00C2CB;  /* Turquoise */
-  --tertiary-color-rgb: 0, 194, 203;
-  --accent-color: #FFC247;  /* Bold yellow */
-  --accent-color-rgb: 255, 194, 71;
+  --primary-color: #FF512A;  /* Vibrant orange-red */
+  --primary-color-rgb: 255, 81, 42;
+  --secondary-color: #FF7E5F;  /* Lighter shade of primary */
+  --secondary-color-rgb: 255, 126, 95;
+  --tertiary-color: #212121;  /* Near black */
+  --tertiary-color-rgb: 33, 33, 33;
+  --accent-color: #FF512A;  /* Same as primary */
+  --accent-color-rgb: 255, 81, 42;
   
   /* Text Colors */
-  --text-color: #1A202C;  /* Deep charcoal */
-  --text-color-light: #4A5568;  /* Modern slate */
-  --light-text: #F7FAFC;  /* Crisp white */
+  --text-color: #212121;  /* Near black */
+  --text-color-light: #505050;  /* Dark gray */
+  --light-text: #FFFFFF;  /* Pure white */
   
   /* Background Colors */
-  --background-color: #ffffff;  /* Pure white */
-  --section-background: #F0F5FF;  /* Light blue hint */
-  --alt-section-background: #F8FAFF;  /* Subtle blue tint */
-  --border-color: #E2E8F0;  /* Modern border */
+  --background-color: #FFFFFF;  /* Pure white */
+  --section-background: #FCFCFC;  /* Slight off-white */
+  --alt-section-background: #F8F8F8;  /* Very light gray */
+  --border-color: #EEEEEE;  /* Light gray border */
   
   /* Gradients & Effects */
-  --gradient-primary: linear-gradient(135deg, var(--primary-color), #3D93FF);
-  --gradient-secondary: linear-gradient(135deg, var(--secondary-color), #FF6BA4);
-  --box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
-  --card-hover-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  --gradient-primary: linear-gradient(135deg, var(--primary-color), #FF7E5F);
+  --gradient-secondary: linear-gradient(135deg, #212121, #505050);
+  --box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+  --card-hover-shadow: 0 15px 35px rgba(255, 81, 42, 0.08);
   
   /* Typography */
   --font-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -49,6 +49,34 @@
   --header-height: 70px;
   --border-radius: 12px;  /* More rounded corners for modern look */
   --box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+
+  /* Animations */
+  --animation-speed-slow: 0.6s;
+  --animation-speed-medium: 0.4s;
+  --animation-speed-fast: 0.2s;
+}
+
+/* Keyframes Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInFromRight {
+  from { transform: translateX(30px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+@keyframes borderGlow {
+  0% { box-shadow: 0 0 0 rgba(var(--primary-color-rgb), 0); }
+  50% { box-shadow: 0 0 10px rgba(var(--primary-color-rgb), 0.3); }
+  100% { box-shadow: 0 0 0 rgba(var(--primary-color-rgb), 0); }
 }
 
 * {
@@ -79,14 +107,17 @@ code {
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: var(--spacing-md);
   line-height: 1.2;
+  font-weight: 700;
 }
 
 h1 {
   font-size: var(--font-size-xxl);
+  letter-spacing: -1px;
 }
 
 h2 {
   font-size: var(--font-size-xl);
+  letter-spacing: -0.5px;
 }
 
 h3 {
@@ -100,11 +131,27 @@ p {
 a {
   color: var(--primary-color);
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: color var(--animation-speed-fast) ease, transform var(--animation-speed-fast) ease;
+  position: relative;
 }
 
 a:hover {
   color: var(--secondary-color);
+}
+
+a:not(.button):after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--primary-color);
+  transition: width var(--animation-speed-medium) ease;
+}
+
+a:not(.button):hover:after {
+  width: 100%;
 }
 
 .container {
@@ -116,14 +163,14 @@ a:hover {
 
 .section {
   padding: var(--spacing-xl) 0;
-  transition: background-color 0.3s ease;
+  transition: background-color var(--animation-speed-medium) ease;
 }
 
 .section-title {
   position: relative;
   margin-bottom: var(--spacing-xl);
   text-align: center;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: -0.5px;
 }
 
@@ -137,6 +184,7 @@ a:hover {
   height: 4px;
   border-radius: 2px;
   background: var(--gradient-primary);
+  animation: pulse var(--animation-speed-slow) infinite;
 }
 
 /* Modern Card Styling */
@@ -145,14 +193,34 @@ a:hover {
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
   padding: var(--spacing-lg);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform var(--animation-speed-medium) cubic-bezier(0.175, 0.885, 0.32, 1.275), 
+              box-shadow var(--animation-speed-medium) ease, 
+              border-color var(--animation-speed-medium) ease;
   border: 1px solid var(--border-color);
   overflow: hidden;
+  position: relative;
+  animation: fadeIn var(--animation-speed-medium) ease-out;
 }
 
 .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-7px) scale(1.01);
   box-shadow: var(--card-hover-shadow);
+  border-color: rgba(var(--primary-color-rgb), 0.2);
+}
+
+.card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: var(--gradient-primary);
+  transition: width var(--animation-speed-medium) ease;
+}
+
+.card:hover::after {
+  width: 100%;
 }
 
 /* Modern Button Styling */
@@ -165,23 +233,42 @@ a:hover {
   font-weight: 600;
   border: none;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all var(--animation-speed-medium) cubic-bezier(0.175, 0.885, 0.32, 1.275);
   text-align: center;
   box-shadow: 0 4px 15px rgba(var(--primary-color-rgb), 0.2);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.button:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: all 0.6s ease;
+  z-index: -1;
+}
+
+.button:hover:before {
+  left: 100%;
 }
 
 .button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(var(--primary-color-rgb), 0.3);
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 8px 25px rgba(var(--primary-color-rgb), 0.3);
 }
 
 .button.secondary {
   background: var(--gradient-secondary);
-  box-shadow: 0 4px 15px rgba(var(--secondary-color-rgb), 0.2);
+  box-shadow: 0 4px 15px rgba(var(--tertiary-color-rgb), 0.2);
 }
 
 .button.secondary:hover {
-  box-shadow: 0 6px 20px rgba(var(--secondary-color-rgb), 0.3);
+  box-shadow: 0 8px 25px rgba(var(--tertiary-color-rgb), 0.3);
 }
 
 /* Utility classes */
@@ -219,6 +306,23 @@ a:hover {
 
 .mt-3 {
   margin-top: var(--spacing-lg);
+}
+
+/* Animated elements */
+.animate-fade-in {
+  animation: fadeIn var(--animation-speed-medium) ease-out;
+}
+
+.animate-slide-in {
+  animation: slideInFromRight var(--animation-speed-medium) ease-out;
+}
+
+.animate-pulse {
+  animation: pulse 2s infinite;
+}
+
+.animate-border-glow {
+  animation: borderGlow 2s infinite;
 }
 
 /* Media Queries */
