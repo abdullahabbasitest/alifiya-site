@@ -4,19 +4,22 @@
 }
 
 .education-container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding-top: var(--spacing-lg);
+  display: flex;
+  justify-content: space-between;
+  gap: var(--spacing-lg);
 }
 
 .education-item {
-  margin-bottom: var(--spacing-xl);
   position: relative;
   background-color: var(--section-background);
   border-radius: var(--border-radius);
   padding: var(--spacing-lg);
   box-shadow: var(--box-shadow);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex: 1;
 }
 
 .education-item:hover {
@@ -55,8 +58,13 @@
 }
 
 @media (max-width: 768px) {
+  .education-container {
+    flex-direction: column;
+  }
+  
   .education-item {
     padding: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
   }
   
   .education-degree {
@@ -71,7 +79,7 @@
   
   .education-item {
     padding: var(--spacing-sm);
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
   }
   
   .education-institution {
