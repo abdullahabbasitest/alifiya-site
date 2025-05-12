@@ -30,7 +30,7 @@ const ProjectsSection = () => {
     },
     {
       id: 5,
-      title: "Orthopedic Implant Documentation",
+      title: "EUMDR Documentation",
       description: "Prepared technical documentation including the Clinical Evaluation Plan (CEP), Clinical Evaluation Report (CER), Post-Market Surveillance (PMS) Plan and Report, and product labeling for an orthopedic implant."
     },
     {

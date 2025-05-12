@@ -17,7 +17,7 @@ const SkillsSection = () => {
     },
     {
       category: "Regulatory Skills",
-      details: "21CFR 820, ISO 13485, ISO 14971, ISO 15223-1, ISO 20417, ISO 11137 and ISO 11135"
+      details: "21CFR 820, 21CFR Part 11, ISO 13485, FDA QSR’s, ISO 14971, ISO 15223-1, ISO 20417, ISO 11137 and ISO 11135, FMEA, Design Control Table, EUMDR, EU IVDR"
     },
     {
       category: "Public Speaking",
@@ -29,7 +29,7 @@ const SkillsSection = () => {
     },
     {
       category: "Other Skills",
-      details: "Critical Analysis, Methodical Documentation, Visual Communication, Simplification of Complex Concepts, Curiosity and Lifelong Learning, Attention to Detail and Organization"
+      details: "Attention to Detail and Organization, Critical Analysis, Methodical Documentation, Visual Communication, Simplification of Complex Concepts, Curiosity and Lifelong Learning."
     }
   ];
 

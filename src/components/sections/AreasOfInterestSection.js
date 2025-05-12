@@ -9,8 +9,7 @@ const AreasOfInterestSection = () => {
         
         <div className="areas-of-interest-content">
           <p>
-            Quality assurance, regulatory affairs, regulatory operations, program management 
-            and any other opportunity which aligned with my background of interest.
+          Quality assurance, regulatory affairs, regulatory operations, program management and any other opportunity which aligns with my background and skillset.
           </p>
         </div>
       </div>

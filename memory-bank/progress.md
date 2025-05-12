@@ -69,6 +69,10 @@
   - Redesigned buttons with gradient backgrounds and pill shapes
   - Improved typography with better visual hierarchy
   - Created consistent card styling with hover effects for depth
+- Added two additional testimonials:
+  - Saleel Yardi (Food Technologist) highlighting research collaboration
+  - Prabhu Muthu (Regulatory Affairs Specialist) emphasizing leadership in study groups
+- Added professional qualifications "MTech, RAC- Medical devices, RCC-MDR" to the Hero section to enhance credibility
 
 ## Blockers
 - None currently identified

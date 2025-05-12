@@ -7,9 +7,9 @@ const HeroSection = () => {
       <div className="container hero-container">
         <div className="hero-content">
           <div className="hero-info">
-            <h1 className="hero-name">Alifiya Parekh</h1>
-            <h2 className="hero-title">Quality and Regulatory Specialist </h2>
-            <div className="hero-tag">Medical Devices & Diagnostics| Digital Health</div>
+            <h1 className="hero-name">Hi, I'm Alifiya Parekh</h1>
+            <div className="hero-title">MTech, RAC- Medical devices, RCC-MDR</div>
+            <div className="hero-tag">Medical Devices | Diagnostics| Digital Health</div>
             <p className="hero-bio">
             Driven to make a meaningful impact by empowering peers in their career journeys, supporting life science businesses with impactful content, and contributing to the development of safe and effective medical innovations.
             </p>

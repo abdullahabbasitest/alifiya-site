@@ -6,14 +6,14 @@ const ExperienceSection = () => {
   const experiences = [
     {
       id: 0,
-      role: "Freelance Content Engineer & Regulatory Mentor",
+      role: "Study Group Lead, Freelance Content Engineer, 1:1 Peer Support",
       company: "Independent",
-      location: "Santa Clara, CA",
+      location: "Sunnyvale, CA",
       period: "Current",
       description: [
+        "Leading US, EU, and Global study groups with 30+ participants through remote sessions focused on regulatory understanding.",
         "Providing specialized content engineering services for life science businesses, including document formatting, editing, and refinement.",
-        "Conducting 1:1 mentoring sessions with peers transitioning from different backgrounds to medical devices QA/RA roles.",
-        "Leading US, EU, and Global study groups with 30+ participants through remote sessions focused on regulatory understanding."
+        "Conducting 1:1 mentoring sessions with peers transitioning from different backgrounds to medical devices QA/RA roles."
       ]
     },
     {

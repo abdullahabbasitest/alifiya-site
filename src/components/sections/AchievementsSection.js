@@ -6,7 +6,7 @@ const AchievementsSection = () => {
     {
       role: "Organizer, RAC-Devices Global Study Group",
       period: "March 2025–Present",
-      description: "Led 30+ member global study group on US, EU, and global medical device regulations. Developed session agendas, coordinated SMEs, created regulatory quizzes."
+      description: "Led 30+ member global study group on US, EU, and global medical device regulations. Developed technical content, session agendas, coordinated SMEs, created regulatory quizzes, facilitation and admin."
     },
     {
       role: "Panel Speaker, \"Evolving in Regulatory\" – RAPS SF Chapter, UCSF",

@@ -24,6 +24,8 @@ The project is moving from initial setup to component implementation phase. We a
   - Added subtle animations and hover effects
   - Redesigned buttons with gradient backgrounds and pill shapes
   - Enhanced typography with improved hierarchy and letter-spacing
+- Added professional qualifications "MTech, RAC- Medical devices, RCC-MDR" below name in Hero section
+- Added two additional testimonials from Saleel Yardi and Prabhu Muthu
 
 ## Active Decisions
 1. **Styling Approach**: Decided to use custom CSS instead of Tailwind CSS for more precise control over styling and reduced bundle size. This decision is reflected in the journal entry "2025_05_03_tailwind_removal.md".
