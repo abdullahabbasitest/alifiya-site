@@ -21,10 +21,11 @@ const HeroSection = () => {
                 Contact Me
               </a>
               <a 
-                href="#experience"
+                href="/alifiya-resume.docx"
                 className="hero-button secondary-button"
+                download
               >
-                View Experience
+                Download CV
               </a>
             </div>
           </div>
