@@ -31,7 +31,7 @@ const HeroSection = () => {
           </div>
           <div className="hero-image">
             <img 
-              src="/alifiya-pic.png" 
+              src="/alifiya-pic.jpeg" 
               alt="Alifiya Parekh"
               className="profile-image"
             />
