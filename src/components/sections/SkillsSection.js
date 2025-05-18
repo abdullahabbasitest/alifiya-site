@@ -13,7 +13,7 @@ const SkillsSection = () => {
     },
     {
       category: "Technical Skills",
-      details: "510k EU-MDR Technical documentation, GSPR, IFU, Labels, Clinical and post market surveillance, SOPs, Work Instructions, Change assessment, CAPA"
+      details: "510k, EU-MDR Technical documentation, GSPR, IFU, Labels, Clinical and Post-market surveillance documents, SOPs, Work Instructions, Change assessment, CAPA"
     },
     {
       category: "Regulatory Skills",
