@@ -7,9 +7,9 @@ const TestimonialsSection = () => {
   // Testimonial data
   const testimonials = [
     {
-      name: "Nakul Pathak",
-      position: "Regulatory Affairs Manager Dormer Laboratories Inc.",
-      text: "Alifiya and I have worked across multiple settings—as a coursemate and project partner during the RAC Certificate Program at UCSC, a collaborator on a regulatory project at Antrix, and a dedicated study group member for the RAPS RCC-MDR and organizer for RAC Devices preparation initiatives.Throughout these various experiences, Alifiya has consistently demonstrated a strong drive to learn, an eagerness to contribute, and a genuine passion for the field of quality and regulatory affairs in the medical device industry. She has a knack for quickly grasping complex concepts and translating them into visually engaging presentations and flowcharts that help both her and her peers understand the material better.Alifiya is dependable, resourceful, and brings a positive energy to every team she’s part of. She's not only reliable and skilled but also fun to work with. I wholeheartedly recommend her for any team seeking a motivated and capable professional in the quality and regulatory space"
+      name: "Rebecca D",
+      position: "Third degree connection Regulatory | Quality | Electronic Systems hybrid talent",
+      text: " work with Alifiya in RAPS San Francisco Chapter volunteering. As the chapter's Membership and Registration (M&R) Committee chair, I manage Alifiya and other committee members to support the membership onboarding, membership and registration database management, and on-site check in of event attendees. Alifiya has been an active member of our committee and has contributed to a number of events. Alifiya is very responsive and communicative throughout our collaboration. She is committed to getting the assigned tasks completed, and she thinks creatively to achieve the goal in an efficient manner. She actively seeks opportunities for continuous improvement while keeping the lead in the loop, and asks for confirmation when needed. When challenges arise, Alifiya clearly communicates it with an alternative proposal. In addition to her M&R committee assignments, Alifiya also went above and beyond and showcased her outstanding written communication skills via LinkedIn posts to help promote the chapter and its events. Alifiya is a bright, personable and professional individual. It is a true pleasure working with Alifiya."
     },
     {
       name: "Bill Kurani",
@@ -20,6 +20,11 @@ const TestimonialsSection = () => {
       name: "Ashfaq Hussain",
       position: "ASQ CQE, ASQ CSSGB, IRCA Certified Lead Auditor, Medical Device QMS- ISO 13485 and 21 CFR 820, - EU MDR, Risk Management ISO 14971",
       text: "Working with Alifiya has been fantastic. She has the ability to quickly learn and grasp the medical device regulations and standards, She has also worked effortlessly helping our team meet deadlines for the EUMDR submissions with her technical expertise. Over the years, we discussed about medical device regulations and compliance extensively which shows her interest and passion towards the medical device regulations and she keeps herself up-to date with the latest information in the field of medical devices. I would highly recommend her to any team which is seeking a highly organized, enthusiastic, quick learner with strong technical skills. She adds a great value to any organization by her dedication towards the work and with the depth of technical knowledge."
+    },
+    {
+      name: "Nakul Pathak",
+      position: "Regulatory Affairs Manager Dormer Laboratories Inc.",
+      text: "Alifiya and I have worked across multiple settings—as a coursemate and project partner during the RAC Certificate Program at UCSC, a collaborator on a regulatory project at Antrix, and a dedicated study group member for the RAPS RCC-MDR and organizer for RAC Devices preparation initiatives.Throughout these various experiences, Alifiya has consistently demonstrated a strong drive to learn, an eagerness to contribute, and a genuine passion for the field of quality and regulatory affairs in the medical device industry. She has a knack for quickly grasping complex concepts and translating them into visually engaging presentations and flowcharts that help both her and her peers understand the material better.Alifiya is dependable, resourceful, and brings a positive energy to every team she’s part of. She's not only reliable and skilled but also fun to work with. I wholeheartedly recommend her for any team seeking a motivated and capable professional in the quality and regulatory space"
     },
     {
       name: "Akshay Jadhav",

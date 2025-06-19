@@ -46,7 +46,7 @@ const AreasOfInterestSection = () => {
         
         <div className="interest-footer">
           <p>
-            I'm also open to other opportunities that align with my background and skillset in the medical device and biotech industries.
+            I'm also open to other opportunities that align with my background and skillset in the medical devices.
           </p>
         </div>
       </div>
