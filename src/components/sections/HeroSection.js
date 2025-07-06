@@ -11,7 +11,7 @@ const HeroSection = () => {
             <div className="hero-title">MTech, RAC- Medical devices, RCC-MDR</div>
             <div className="hero-tag">Medical Devices | Diagnostics| Digital Health</div>
             <p className="hero-bio">
-            Curious, Driven, Committed to growth. Engineer with a Master’s and bachelor’s in biotechnology engineering (Total 6 years of degree education) and over 6.5 years of hands-on experience in quality compliance for Class II/III medical devices and diagnostics (US-FDA, EU-MDR), including SaMD, as well as R&amp;D and technical documentation within the biologics industry. Committed to delivering the highest quality of service while prioritizing the safety and effectiveness of medical devices for end users.
+            Curious, driven, and dedicated Biotech Engineer & former R&D Scientist turned MedTech Quality and Regulatory professional, with over 6.5 years of hands-on experience in quality, compliance, and regulatory affairs. Proven expertise in Class II/III medical devices, diagnostics, and Software as a Medical Device (SaMD) (US FDA and EU MDR) as well as R&D and technical documentation across the biologics industry. Authorized to work in the U.S. without current or future sponsorship.
             </p>
             <div className="hero-cta">
               <a 
