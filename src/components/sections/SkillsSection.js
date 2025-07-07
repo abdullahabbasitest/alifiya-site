@@ -4,32 +4,20 @@ import './SkillsSection.css';
 const SkillsSection = () => {
   const skillData = [
     {
-      category: "Computer Skills",
-      details: "MS Office, Adobe Acrobat, Canva, Smartsheet, SharePoint, Virje, SAP, Atlassian JIRA, SQL, Electronic Lab Notebooks"
+      category: "Regulatory Submissions and Technical Writing",
+      details: "510(k), EU-MDR Technical documentation, GSPR, IFU, Labels, Clinical and post market surveillance, SOPs, Work Instructions, Change assessment, CAPA, Deviation, Risk management, Design control file and Process validation plan"
     },
     {
-      category: "Tools & Platforms",
-      details: "BSI Compliance Navigator, IQVIA database, and Nyquist AI, EUDAMED, GMDN, GUDID, FDA database"
+      category: "Regulatory Frameworks & Quality Standards",
+      details: "EU-MDR, US FDA guidance documents, ISO 13485, 21CFR 820, 21CFR Part 11, ISO 14971, ISO 15223-1, ISO 20417, EU-IVDR, IMDRF, and other ISO/ IEC standards"
     },
     {
-      category: "Technical Skills",
-      details: "510k, EU-MDR Technical documentation, GSPR, IFU, Labels, Clinical and Post-market surveillance documents, SOPs, Work Instructions, Change assessment, CAPA"
-    },
-    {
-      category: "Regulatory Skills",
-      details: "21CFR 820, 21CFR Part 11, ISO 13485, FDA QSR’s, ISO 14971, ISO 15223-1, ISO 20417, ISO 11137 and ISO 11135, FMEA, Design Control Table, EUMDR, EU IVDR"
-    },
-    {
-      category: "Public Speaking",
-      details: "International Toastmasters Club Member – India"
+      category: "Tools & Databases",
+      details: "MS Office suite, Adobe Acrobat, Adobe express, Canva, Notion, Veeva, Smartsheet, SharePoint, SAP, Virje, JIRA, BSI Compliance Navigator, GUDID, EUDAMED, FDA database, e Star Forms, Nyquist AI, IQVIA database, Canva, e Lab notebooks, MDCG"
     },
     {
       category: "Languages",
-      details: "Proficient: English, Hindi, Gujarati, Urdu    Basic: Arabic, Sanskrit, Marathi"
-    },
-    {
-      category: "Other Skills",
-      details: "Attention to Detail and Organization, Critical Analysis, Methodical Documentation, Visual Communication, Simplification of Complex Concepts, Curiosity and Lifelong Learning."
+      details: "Fluent in English, Hindi, Gujarati, Basic proficiency in Urdu, Arabic, Sanskrit, Marathi"
     }
   ];
 
