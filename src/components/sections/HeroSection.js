@@ -11,7 +11,12 @@ const HeroSection = () => {
             <div className="hero-title">MTech, RAC- Medical devices, RCC-MDR</div>
             <div className="hero-tag">Medical Devices | Diagnostics| Digital Health</div>
             <p className="hero-bio">
-            Curious, driven, and dedicated Biotech Engineer & former R&D Scientist turned MedTech Quality and Regulatory professional, with over 6.5 years of hands-on experience in quality, compliance, and regulatory affairs. Proven expertise in Class II/III medical devices, diagnostics, and Software as a Medical Device (SaMD) (US FDA and EU MDR) as well as R&D and technical documentation across the biologics industry. Authorized to work in the U.S. without current or future sponsorship.
+            Results-driven AI-savvy Regulatory Affairs Specialist with 6.5+ years of experience in FDA/EU submissions (510(k),
+MDR), technical documentation, and quality compliance for Class II/III medical devices, SaMD, and diagnostics.
+Proven track record in authoring GSPR, CERs, PMS, risk management files and IFU, labeling review while ensuring
+adherence to ISO 13485, 21 CFR 820, and EU MDR/IVDR. Adept at leading regulatory strategy, gap analyses, and
+post-market surveillance to drive compliance and accelerate approvals. Strong technical writing, cross-functional
+collaboration, and mentorship skills. RAC (UCSC) and RCC-MDR (RAPS) certified. Authorized to work in the U.S. without sponsorship.
             </p>
             <div className="hero-cta">
               <a 

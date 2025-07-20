@@ -6,18 +6,6 @@ const ExperienceSection = () => {
   const experiences = [
     {
       id: 0,
-      role: "Study Group Lead, Freelance Content Engineer, 1:1 Peer Support",
-      company: "Independent",
-      location: "Sunnyvale, CA",
-      period: "Current",
-      description: [
-        "Leading US, EU, and Global study groups with 30+ participants through remote sessions focused on regulatory understanding.",
-        "Providing specialized content engineering services for life science businesses, including document formatting, editing, and refinement.",
-        "Conducting 1:1 mentoring sessions with peers transitioning from different backgrounds to medical devices QA/RA roles."
-      ]
-    },
-    {
-      id: 1,
       role: "Regulatory Operations Specialist",
       company: "Shockwave Medical (acquired by Johnson & Johnson MedTech)",
       location: "Santa Clara, CA",
@@ -30,7 +18,7 @@ const ExperienceSection = () => {
       ]
     },
     {
-      id: 2,
+      id: 1,
       role: "Regulatory Consultant",
       company: "Antrix Inc.",
       location: "Sunnyvale, CA",
@@ -43,7 +31,7 @@ const ExperienceSection = () => {
       ]
     },
     {
-      id: 3,
+      id: 2,
       role: "Senior Engineer, Quality & Regulatory Affairs",
       company: "Tata Elxsi (Zimmer Biomet)",
       location: "Pune, MH",
@@ -57,7 +45,7 @@ const ExperienceSection = () => {
       ]
     },
     {
-      id: 4,
+      id: 3,
       role: "Senior Research Associate, Technical Documentation",
       company: "USV Pvt Ltd",
       location: "Mumbai, MH",
@@ -71,7 +59,7 @@ const ExperienceSection = () => {
       ]
     },
     {
-      id: 5,
+      id: 4,
       role: "Senior Executive, R&D – Biologics",
       company: "INTAS Biopharma",
       location: "Ahmedabad, GUJ",
@@ -83,7 +71,7 @@ const ExperienceSection = () => {
       ]
     },
     {
-      id: 6,
+      id: 5,
       role: "Senior Scientific Assistant, R&D – Biologics",
       company: "Zydus Cadila",
       location: "Ahmedabad, GUJ",
