@@ -34,7 +34,6 @@ const KeyProjectsSection = () => {
     <section id="key-projects" className="key-projects-section section">
       <div className="container">
         <h2 className="section-title">KEY PROJECTS</h2>
-        <h3 className="section-subtitle">completed as part of RAC CERTIFICATE PROGRAM at UCSC, Silicon Valley, USA</h3>
         <ul className="key-projects-list">
           {keyProjects.map((project) => (
             <li key={project.id} className="key-project-item">
