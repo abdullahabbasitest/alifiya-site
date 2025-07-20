@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from './components/layout/Layout';
 import HeroSection from './components/sections/HeroSection';
 import ExperienceSection from './components/sections/ExperienceSection';
+import KeyProjectsSection from './components/sections/KeyProjectsSection';
 import ProjectsSection from './components/sections/ProjectsSection';
 import TestimonialsSection from './components/sections/TestimonialsSection';
 import VolunteerExperienceSection from './components/sections/VolunteerExperienceSection';
@@ -19,6 +20,7 @@ function App() {
       <SkillsSection />
       <AchievementsSection />
       <ExperienceSection />
+      <KeyProjectsSection />
       <ProjectsSection />
       <TestimonialsSection />
       <EducationSection />
