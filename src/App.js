@@ -24,7 +24,6 @@ function App() {
       <TestimonialsSection />
       <EducationSection />
       <VolunteerExperienceSection />
-      <AreasOfInterestSection />
       <ContactSection />
     </Layout>
   );

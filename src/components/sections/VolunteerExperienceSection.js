@@ -2,44 +2,59 @@ import React from 'react';
 import './VolunteerExperienceSection.css';
 
 const VolunteerExperienceSection = () => {
-  // Volunteer experiences data
-  const volunteerExperiences = [
+  // Professional affiliations and volunteering content
+  const affiliationsData = [
     {
       id: 1,
-      role: "Volunteer & Member",
-      organization: "RAPS San Francisco Chapter",
-      duration: "2024 – Present",
-      summary: "Supporting the membership and registration team as an active volunteer."
+      description: (
+        <>
+          <strong>Regulatory Project Management</strong> (Sessions' designer, Technical Presenter, Coordinator, Moderator, Mentor) <em>Global Remote Study Group | Mar-May 2025</em>
+          <ul>
+            <li>Designed and led a 7-session study group focused on US, EU and International medical device regulations with 15+ active participants resulting in enhanced understanding of the medical device regulations for the participants.</li>
+            <li>Developed and delivered technical content including agendas and quizzes; collaborated with 8+ SMEs</li>
+            <li>Provided peer mentoring for transitioning professionals entering MedTech regulatory role</li>
+          </ul>
+        </>
+      )
+    },
+    {
+      id: 2,
+      description: (
+        <>
+          <strong>Panel Speaker</strong> RAPS SF Chapter, UCSF (Apr 2025): Shared career insights on transitioning into MedTech
+        </>
+      )
+    },
+    {
+      id: 3,
+      description: (
+        <>
+          <strong>Volunteer</strong> RAPS SF Chapter (Dec 2024–Present): Member and event registration support
+        </>
+      )
+    },
+    {
+      id: 4,
+      description: (
+        <>
+          <strong>Member</strong> California Medical Instrumentation Association- Bay area Chapter
+        </>
+      )
     }
   ];
 
   return (
     <section id="volunteer" className="volunteer-section section">
       <div className="container">
-        <h2 className="section-title">VOLUNTEER EXPERIENCE</h2>
+        <h2 className="section-title">PROFESSIONAL AFFILIATIONS & VOLUNTEERING</h2>
         
-        <div className="volunteer-container">
-          {volunteerExperiences.map((volunteer) => (
-            <div key={volunteer.id} className="volunteer-card">
-              <div className="volunteer-header">
-                <div className="volunteer-role-wrapper">
-                  <h3 className="volunteer-role">{volunteer.role}</h3>
-                  <span className="volunteer-duration">{volunteer.duration}</span>
-                </div>
-                <p className="volunteer-organization">{volunteer.organization}</p>
-              </div>
-              <div className="volunteer-divider"></div>
-              <div className="volunteer-content">
-                <p className="volunteer-summary">{volunteer.summary}</p>
-              </div>
-              <div className="volunteer-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
-                </svg>
-              </div>
-            </div>
+        <ul className="affiliations-list">
+          {affiliationsData.map((item) => (
+            <li key={item.id} className="affiliation-item">
+              {item.description}
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
     </section>
   );
