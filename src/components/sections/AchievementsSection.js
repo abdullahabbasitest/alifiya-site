@@ -47,30 +47,6 @@ const AchievementsSection = () => {
   return (
     <section id="achievements" className="achievements-section section">
       <div className="container">
-        <h2 className="section-title">LEADERSHIP</h2>
-        
-        <div className="achievements-table-container">
-          <table className="achievements-table">
-            <thead>
-              <tr>
-                <th>Role</th>
-                <th>Description</th>
-              </tr>
-            </thead>
-            <tbody>
-              {achievementsData.map((item, index) => (
-                <tr key={index}>
-                  <td>
-                    {item.role}
-                    {item.period && <div className="period">({item.period})</div>}
-                  </td>
-                  <td>{item.description}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-        
         <h2 className="section-title mt-xl">CERTIFICATIONS</h2>
         
         <div className="certifications-container">

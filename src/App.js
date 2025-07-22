@@ -21,7 +21,6 @@ function App() {
       <AchievementsSection />
       <ExperienceSection />
       <KeyProjectsSection />
-      <ProjectsSection />
       <TestimonialsSection />
       <EducationSection />
       <VolunteerExperienceSection />
