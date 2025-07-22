@@ -12,15 +12,6 @@ const ContactSection = () => {
         </div>
         
         <div className="contact-content">
-          <div className="availability-card">
-            <div className="availability-icon">🔍</div>
-            <div className="availability-content">
-              <h3 className="availability-title">Currently Available</h3>
-              <p className="contact-description">
-                I'm open to new opportunities, whether full-time or part-time, or on a contract basis. I'm flexible with remote, hybrid, or onsite roles within the USA and do not require work sponsorship.
-              </p>
-            </div>
-          </div>
           
           <div className="contact-methods-grid">
             <div className="contact-method">
